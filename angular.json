@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "e8dcdfdc-f987-4e5d-a286-ec5263d45813"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -31,9 +34,24 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/lib/flaticon/font/flaticon.css",
+              "src/lib/animate/animate.min.css",
+              "src/lib/owlcarousel/assets/owl.carousel.min.css",
+              "src/lib/lightbox/css/lightbox.min.css",
+              "src/lib/slick/slick.css",
+              "src/lib/slick/slick-theme.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/lib/easing/easing.min.js",
+              "src/lib/wow/wow.min.js",
+              "src/lib/owlcarousel/owl.carousel.min.js",
+              "src/lib/isotope/isotope.pkgd.min.js",
+              "src/lib/lightbox/js/lightbox.min.js",
+              "src/lib/waypoints/waypoints.min.js",
+              "src/lib/counterup/counterup.min.js",
+              "src/lib/slick/slick.min.js"
+            ]
           },
           "configurations": {
             "production": {
