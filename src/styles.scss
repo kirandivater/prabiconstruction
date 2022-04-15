@@ -8,7 +8,7 @@ $testcolor: #fff;
 body {
     color: #666666;
     background: #dddddd;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
@@ -626,7 +626,7 @@ a:focus {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
-    color: #030f27;
+    color: $testcolor;
     border-radius: 0;
     background: $bgcolor;
     transition: .3s;
@@ -2037,7 +2037,7 @@ a:focus {
     padding: 16px 30px;
     font-size: 16px;
     font-weight: 600;
-    color: $bgcolor;
+    color: $testcolor;
     background: #030f27;
     border: none;
     border-radius: 0;
@@ -2045,7 +2045,7 @@ a:focus {
 }
 
 .contact .contact-form .btn:hover {
-    color: #030f27;
+    color: #000;
     background: #ffffff;
 }
 
