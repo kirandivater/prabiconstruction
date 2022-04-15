@@ -572,7 +572,7 @@ a:focus {
 
 .feature .feature-text h3 {
     margin: 0 0 10px 0;
-    color: $bgcolor;
+    color: $testcolor;
     font-size: 25px;
     font-weight: 600;
 }
@@ -587,7 +587,7 @@ a:focus {
 .feature .col-md-12:nth-child(2n) [class^="flaticon-"]::before,
 .feature .col-md-12:nth-child(2n) h3,
 .feature .col-md-12:nth-child(2n) p {
-    color: #030f27;
+    color: $testcolor;
 }
 
 
