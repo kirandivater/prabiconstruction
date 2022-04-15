@@ -1,0 +1,30 @@
+<ngb-carousel
+[showNavigationArrows]="true" 
+[showNavigationIndicators]="true"
+[keyboard]="true"
+[interval]="4000"
+[pauseOnHover]="false"
+[wrap]="true">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="../assets/img/carousel-1.jpg" alt="Angular Carousel 1">
+      </div>
+      <div class="carousel-caption">
+        <h3>Classy</h3>
+        <p>Construction.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/img/carousel-2.jpg" alt="Angular Carousel 2">
+      </div>
+      <div class="carousel-caption">
+        <p>Constructing Your Dreams with Us.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="assets/img/carousel-3.jpg" alt="Angular Carousel 2">
+        </div>
+      </ng-template>
+  </ngb-carousel>
